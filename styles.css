@@ -317,7 +317,7 @@ main {
     padding: 15px;
     background-color: var(--black);
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0 ,0, 0.16);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 
 .product-detail--card span {
@@ -331,19 +331,19 @@ main {
 }
 
 .product-detail--card span.clock {
-    background-image: url('./assets/icons/clock.svg');
+    background-image: url("./assets/icons/clock.svg");
 }
 
 .product-detail--card span.eye {
-    background-image: url('./assets/icons/eye.svg');
+    background-image: url("./assets/icons/eye.svg");
 }
 
 .product-detail--card span.money {
-    background-image: url('./assets/icons/dollar-sign.svg');
+    background-image: url("./assets/icons/dollar-sign.svg");
 }
 
 .product-detail--card span.check {
-    background-image: url('./assets/icons/check-circle.svg');
+    background-image: url("./assets/icons/check-circle.svg");
 }
 
 .product-card--title {
@@ -362,5 +362,28 @@ main {
 }
 
 /* FINISH CARD' SECTION STYLES */
+
+/* START CARD' SECTION IMAGE */
+
+.bitcoin-img-container {
+    width: 100%;
+    min-width: 320px;
+    height: 80vh;
+    background-image: url("./assets/img/bitcoinbaby2x.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bitcoin-img-container h2 {
+    padding-top:  60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    text-align: center;
+}
+
+/* FINISH CARD' SECTION IMAGE */
 
 /* FINISH MAIN STYLES */
